@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="static/css/styles.css">
 
-        <title> GRAPHITI </title>
+        <title> GRAPHITI: {% block title %}{% endblock %}</title>
 
     </head>
 
@@ -35,36 +35,8 @@
         </nav> 
 
         <main>
-            <form action = "/" method = "GET">
-                <a href="about.html" style=" position:absolute; padding-left:70%; padding-top: 10%;">
-                    About Me
-                </a>  
-                
-                <a href="graphs.html">
-                    <div style="position:absolute; right:65%;">
-                        Graphs
-                    </div> 
-                    <img src="static/css/spiral.png">
-                </a> 
-                
-                
-                <div>
-                    <a href="resources.html" style = " position:absolute; padding-top: 20%; padding-right: 80%; margin-left: 20;">
-                        Resources
-                    </a>
-                    <a href = "nongraph.html">                           
-                        <div style="position:absolute; padding-left: 70%; padding-top: 10%;">
-                            Non-Graph Things
-                        </div> 
-                        <div>
-                            <img src="static/css/Me_face.png" style="margin-left: 65%; margin-top:9%;">
-                        </div>
-                    </a>
-                </div>
-            </form>
+            {% block main %}{% endblock %}
         </main>
     </body>
+
 </html>
-
-
-

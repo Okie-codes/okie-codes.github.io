@@ -12,7 +12,7 @@
 
         <link rel="stylesheet" href="static/css/styles.css">
 
-        <title> GRAPHITI </title>
+        <title> GRAPHITI: Non-Graphs </title>
 
     </head>
 
@@ -35,36 +35,31 @@
         </nav> 
 
         <main>
-            <form action = "/" method = "GET">
-                <a href="about.html" style=" position:absolute; padding-left:70%; padding-top: 10%;">
-                    About Me
-                </a>  
-                
-                <a href="graphs.html">
-                    <div style="position:absolute; right:65%;">
-                        Graphs
-                    </div> 
-                    <img src="static/css/spiral.png">
-                </a> 
-                
-                
+            <form action="/nongraph.html" method="post">
                 <div>
-                    <a href="resources.html" style = " position:absolute; padding-top: 20%; padding-right: 80%; margin-left: 20;">
-                        Resources
-                    </a>
-                    <a href = "nongraph.html">                           
-                        <div style="position:absolute; padding-left: 70%; padding-top: 10%;">
-                            Non-Graph Things
-                        </div> 
+                    <form method="post">
                         <div>
-                            <img src="static/css/Me_face.png" style="margin-left: 65%; margin-top:9%;">
+                            <div class="box" style="padding-right:100%; padding-left: 0%;">
+                                Pendulum
+                            </div>
+                            <div>
+                                <img src="static/css/Pendfacd.png" style="border-radius:0%; border-image-width: 100%;">
+                            </div>
+                            <input type ="number" name = "b" id="b" placeholder="Damping coefficient">
+                            <input type ="number" name = "A" id = "A" placeholder="Amplitude">
+                            <input type ="number" name = "w" id="w" placeholder="Angular frequency">
+                            <input type ="number" name = "phi" id="phi" placeholder="Phase">
+                            <input type ="number" name = "m" id="m" placeholder="Mass">
                         </div>
-                    </a>
+                        <div>
+                            <button type = "submit"> Submit </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="beginning">
+                    Other Stuff I haven't Made Yet Other Stuff I haven't Made Yet Other Stuff I haven't ..
                 </div>
             </form>
         </main>
     </body>
 </html>
-
-
-
