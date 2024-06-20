@@ -1,0 +1,8 @@
+Flask
+flask_session
+Werkzeug
+tempfile
+numpy
+matplotlib
+io
+base64

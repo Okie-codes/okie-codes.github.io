@@ -1,0 +1,58 @@
+.block {
+    background-image: repeating-linear-gradient(90deg,#5d6da3, #39466B, #1f2435);
+    align-items: center;
+}
+
+.box {
+    color:lightgrey;
+    font-family: Chalkduster;
+    font-weight:200;
+    font-size:xx-large;
+    font-variant: small-caps;
+    text-align: center;
+    padding-left: 50%;
+}
+
+a {
+    font-family: Monaco;
+    font-size: xx-large; 
+    font-weight: 10;
+    text-decoration: none; 
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color:rgb(210, 210, 210);
+}
+
+img {
+     border-radius: 50%;
+     border-image: fill;
+}
+
+img:hover {
+    border-radius: 10%;
+}
+
+.beginning {
+    color: rgba(211, 211, 211, 0.142);
+    font-family: Chalkduster;
+    font-weight:200;
+    font-size:xx-large;
+    font-variant: small-caps;
+}
+
+.graph {
+    font-family: "Chalkduster"; 
+    margin-top: 1%;
+    color: lightgrey; 
+    font-size:larger;
+    padding-top: 5%;
+}
